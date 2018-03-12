@@ -17,3 +17,8 @@ def assign_rooms(array)
   end
   helper_arr
 end
+
+def printer
+  batch_badge_creator.each {|el| puts el}
+  assign_rooms.each {|el| puts el}
+end  
